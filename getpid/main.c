@@ -11,10 +11,10 @@
 int main(int argc, char **argv) {
     // argv[0]: executable
     // argv[1]: EXPERIMENTS_COUNT
-    // argv[2]: batch_size
+    // argv[2]: BATCH_SIZE
     // argv[3]: file to store results
     if (argc != 4) {
-        fprintf(stderr, "expected 2 arguments, got %d\n", argc);
+        fprintf(stderr, "expected 3 arguments, got %d\n", argc);
         return NOT_ENOUGH_ARGS;
     }
 
