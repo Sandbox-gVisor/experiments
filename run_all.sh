@@ -8,4 +8,3 @@ function run_one() {
 
 run_one ./getpid ./run.sh
 run_one ./getpid_multithread ./run.sh
-
