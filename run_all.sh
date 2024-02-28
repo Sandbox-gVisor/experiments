@@ -6,5 +6,6 @@ function run_one() {
     printf "#####################\n\n"
 }
 
+run_one ./calc ./run.sh
 run_one ./getpid ./run.sh
 run_one ./getpid_multithread ./run.sh
