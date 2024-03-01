@@ -2,7 +2,7 @@
 
 function run_with_num_treads() {
     printf "\n*** run with %d thread data in %s ***\n" "$1" "$2"
-    ./a.out "$1" 30 100000000 "$2"
+    ./a.out "$1" 30 1000000 "$2"
     printf "*******************\n"
 }
 
