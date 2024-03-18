@@ -4,5 +4,6 @@ function beforeGetPID() {
     c = a + b
 }
 
+hooks.print("1 cb\n")
 hooks.AddCbBefore(39, beforeGetPID) // getpid
 
