@@ -8,4 +8,4 @@ hooks.print("3 cb\n")
 hooks.AddCbBefore(39, beforeGetPID) // getpid
 hooks.AddCbAfter(39, beforeGetPID)
 
-hooks.AddCbBefore(110, beforeGetPID) // getpgid
+hooks.AddCbBefore(104, beforeGetPID) // getgid

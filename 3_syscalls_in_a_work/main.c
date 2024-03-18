@@ -34,7 +34,7 @@ int main(int argc, char **argv) {
         clock_gettime(clock_choice, &start);
         for (int j = 0; j < BATCH_SIZE; j++) {
             pid_t self = getpid();
-            pid_t group_id = getpgid(self);
+            gid_t group_id = getgid();
             uid_t user_id = getuid();
         }
         clock_gettime(clock_choice, &end);
